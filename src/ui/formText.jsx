@@ -7,7 +7,7 @@ const FormText = ({ type = "text", label, width, defaultValue }) => {
 				placeholder={label}
 				defaultValue={defaultValue}
 			/>
-			<label htmlFor="floatingInput">{label}</label>
+			<label className="label-size" htmlFor="floatingInput">{label}</label>
 		</div>
 	);
 };

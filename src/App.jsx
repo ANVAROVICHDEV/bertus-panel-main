@@ -4,13 +4,13 @@ import { Container } from "@mui/material";
 
 function App() {
 	return (
-		<Container className="container-fluid">
+		<div className="container">
 			<Routes>
 				<Route path="/" element={<Main />} />
 				<Route path="/users" element={<Users />} />
 				<Route path="*" element={<PageNotFound />} />
 			</Routes>
-		</Container>
+		</div>
 	);
 }
 

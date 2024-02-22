@@ -136,7 +136,6 @@ const MainForm = () => {
         <FormText
           label={"Неча кун синов муддатида ишлай оласиз?"}
           type="number"
-          width={"380px"}
         />
         <TextArea
           label={
@@ -145,7 +144,7 @@ const MainForm = () => {
           height={"100px"}
         />
 
-        <div class="d-grid gap-2 m-3">
+        <div className="d-grid gap-2 m-3">
           <input className="btn btn-primary" type="submit" value={"Yuborish"} />
         </div>
       </form>

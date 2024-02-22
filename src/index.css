@@ -33,11 +33,12 @@ body{
 
   .label-size{
     text-wrap: wrap !important;
-    font-size: 14px ;
+    font-size: 11px ;
+    color: red;
   }
 
   .textArea{
-    padding-top: 50px !important;
+    padding-top: 150px !important;
   }
   
 }
